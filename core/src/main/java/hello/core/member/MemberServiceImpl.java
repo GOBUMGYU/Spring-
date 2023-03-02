@@ -3,7 +3,7 @@ package hello.core.member;
 public class MemberServiceImpl implements MemberService{
 
     //OCP, DIP 위반
-    private final MemberRepository memberRepository = new MemoryMemberRepositoryImpl();
+    private final MemberRepository memberRepository = new MemoryMemberRepository();
 
     @Override
     public void join(Member member) {
