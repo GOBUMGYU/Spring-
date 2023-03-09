@@ -18,7 +18,7 @@ public class OrderServiceImpl implements OrderService {
         this.discountPolicy = discountPolicy;
     }
 
-    /* 일반 메서드 주입 
+    /* 일반 메서드 주입
     @Autowired
     public void init(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository, this.discountPolicy = discountPolicy;
